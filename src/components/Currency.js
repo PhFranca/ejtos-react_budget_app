@@ -20,6 +20,7 @@ const Currency = () => {
             border: 'none',
             outline: 'none',
             cursor: 'pointer',
+            borderRadius: '8px',
         }} 
       onChange={event=>changeCurrency(event.target.value)}>
         <option value="$" style={{ backgroundColor: "#61d172", color: '#5b5b5b' }}>$ Dolar</option>
