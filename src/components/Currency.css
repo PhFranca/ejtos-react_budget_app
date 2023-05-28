@@ -1,0 +1,37 @@
+.select-container {
+    display: inline-block;
+    position: relative;
+    height: 62px;
+  }
+  
+  .select-container .css-1pahdxg-control {
+    width: 200px;
+  }
+  
+  .select-container .css-1pahdxg-control,
+  .select-container .css-1wy0on6,
+  .select-container .css-1uccc91-singleValue {
+    background-color: #61d172;
+    color: white;
+  }
+  
+  .select-container .css-1pahdxg-control:hover,
+  .select-container .css-1pahdxg-control:focus {
+    border-color: #61d172;
+    box-shadow: none;
+  }
+  
+  .select-container .css-1pahdxg-control::after {
+    border-color: white;
+  }
+  
+  .select-container .css-1xlkwl0-option {
+    background-color: #61d172;
+    color: #5b5b5b;
+  }
+  
+  .select-container .css-1xlkwl0-option:hover {
+    background-color: white;
+    color: green;
+  }
+  
