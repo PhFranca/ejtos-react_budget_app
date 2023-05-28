@@ -56,25 +56,19 @@ const Budget = () => {
   }, [budget]);
 
   return (
-    <div
-      className="alert alert-secondary"
-      style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}
-    >
-      <div>
-        <label htmlFor="budget"> Budget:</label>
-      </div>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
-        <span>{currency}</span>
-        <input
-          required="required"
-          type="number"
-          id="budget"
-          value={inputValue}
-          step="10"
-          onChange={onChangeBudget}
-          onBlur={updateBudget}
-        ></input>
-      </div>
+    <div className="alert alert-secondary">
+    <span>
+        Budget: {currency}
+            <input
+            required="required"
+            type="number"
+            id="budget"
+            value={inputValue}
+            style={{ width: '120px', marginLeft: '4px' }}
+            onChange={onChangeBudget}
+            onBlur={updateBudget}
+            ></input>
+    </span>
     </div>
   );
 };
